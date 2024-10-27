@@ -5,6 +5,7 @@ int main() {
   a = b / 2;
   printf("a: %d, b: %d, c: %d, d: %d\n", a, b, c, d);
 
+
   c = b % 2;
   printf("a: %d, b: %d, c: %d, d: %d\n", a, b, c, d);
 
