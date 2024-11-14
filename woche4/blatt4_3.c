@@ -46,6 +46,17 @@ int main() {
   char fac_s[34];
   int correct = 0;
 
+  // char = 5
+  // unsigned char = 5
+  // short = 7
+  // unsigned short = 8
+  // int = 12
+  // unsigned int = 12
+  // long = 12
+  // unsigned long = 12
+  // long long = 20
+  // unsigned long long = 20
+
   for (int i = 1; i <= n; i++) {
     faculty *= i;
 
@@ -54,7 +65,8 @@ int main() {
     // strcmp returns 0 if strings are identical
     if (strcmp(fac_s, correct_fac[i-1]) == 0) {
         correct = 1;
-    } else {
+    }
+    else {
         correct = 0;
     }
 
